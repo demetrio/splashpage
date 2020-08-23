@@ -1,8 +1,9 @@
 <html>
     <head>
-        <title>Just a title</title>
+        <title>BBQ Ribs - Splash Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="./img/favicon.ico">
     </head>
     <body>
         <div class="intro">
@@ -23,13 +24,14 @@
                 art! One way to speed up the process is to learn from the best. You can do just that by signing up for
                 this free webinar!
             </p>
-
+            
             <form class="email-collector" action="#" method="POST">
-                <input type="text" required placeholder="first name" />
-                <input type="email" required placeholder="email" />
+                <input name="firstName" type="text" required placeholder="first name">
+                <input name="emailAddress" type="email" required  placeholder="email">
                 <button class="btn btn-primary" type="submit">Register</button>
             </form>
             <p class="fine-print">We'll never share your information without your permission</p>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
